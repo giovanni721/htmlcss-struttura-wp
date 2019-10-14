@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+}
+
+
+.image{
+    border-style: 5px solid white;
+    height: 450px;
+    width: 80%;
+    margin: auto;
+    background-image: url("forest.jpg");
+}
