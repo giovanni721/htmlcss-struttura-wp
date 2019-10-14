@@ -2,23 +2,44 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
 }
 
+header{
+
+    width: 80%;
+    margin: auto;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+
+}
 
 .container{
     background-image: url("background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 100vh;
-    width: 80%;
-    margin: auto;
 }
 
+.menu > span{
+    margin-right: 30px;
+    text-align: center;
+    position: relative;
+}
 
 .image{
-    border-style: 5px solid white;
     height: 450px;
-    width: 80%;
-    margin: auto;
     background-image: url("forest.jpg");
+    background-size: cover;
+}
+
+.space{
+    padding: 10px;
+    background-color: white;
+}
+
+.menu{
+    height: 60px;
+    background-color: #c7b3a5;
 }
