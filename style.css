@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
 }
 
 header{
@@ -14,18 +15,49 @@ header{
 main{
     width: 80%;
     margin: auto;
+    margin-top: 10px;
+    margin-bottom:  10px;
 
+}
+
+footer{
+    height: 120px;
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+h1{
+    font-size: 100px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 5px;
+}
+
+main:after {
+    content: '';
+    display: table;
+    clear: both;
 }
 
 .container{
     background-image: url("background.jpg");
-    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .menu > span{
     margin-right: 30px;
-    text-align: center;
     position: relative;
+    margin-top: 10px;
+    /* text-align: center;
+    position: relative; */
 }
 
 .image{
@@ -42,4 +74,34 @@ main{
 .menu{
     height: 60px;
     background-color: #c7b3a5;
+}
+
+.rss{
+    height: 300px;
+    width: 15%;
+    margin-right: 5%;
+    background-color: white;
+    float: left;
+    border-radius: 5px
+}
+
+.main_text{
+    width: 60%;
+    background-color: white;
+    border-radius: 5px;
+    float: left;
+}
+
+.widget_sec{
+    width: 15%;
+    float: right;
+    margin-left: 5%;
+
+}
+
+.widget{
+    background-color: white;
+    height: 200px;
+    margin-bottom: 30px;
+    border-radius: 5px;
 }
